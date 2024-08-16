@@ -84,16 +84,19 @@ h1{
 	text-align:center;
 	padding: 100px 20px; 
 	}
+
 .hero-content h1{
 	font size: 3em;
 	margin-bottom:20px;
 }
+
 .hero-content p{
-font-size:1.5em;
-margin-bottom:30px;
+    font-size:1.5em;
+    margin-bottom:30px;
 }
+
 .btn-primary{
-	background-color: #007bf;
+	background-color: #007bff;
 	color: #fff;
 	padding:10px 20px;
 	border-radius:5px;
