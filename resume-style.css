@@ -1,0 +1,30 @@
+body{
+	background: violet;
+	
+}
+  .profile-info-container{
+  	display: flex;
+  	flex-start: space-between;
+  	background: yellow;
+  	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	gap: 30px;
+
+}  
+  .profile-photo{
+  	width:200px ;
+  	height:200px ;
+  	border-radius:50%;
+
+  } 
+  table{
+  	border: solid 2px indigo;
+  } 
+  th{
+border:solid 2px indigo;
+  }
+  td{
+  	border: solid 2px indigo;
+  }
