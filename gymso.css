@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*navbar*/
+.navbar{
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 100px;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+.navbar h1{
+	font-size: 22px;
+}
+.social-icons{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+.social-icons img{
+	width: 15px;
+	background: white;
+}
+.nav-links{
+	margin-left: 50px;
+	gap: 20px;
+	display: flex;
+	font-size: 10px;
+}
+.nav-links a{
+	text-decoration: none;
+	color: white;
+}
+a.active{
+	color: red;
+}
+.hero{
+	background: url('hero-bg.jpg') center/cover;
+	display: flex;
+	height: 100vh;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.55);
+	position: fixed;
+	inset: 0;
+}
+.hero-content{
+	z-index: 1;
+	position: relative;
+	text-align: center;
+}
+.hero-buttons{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+.button-1, .button-2{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+.button-2{
+	color: tomato;
+	border: 2px solid;
+}
+.hero-content p{
+	color: darkgray;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.hero-content h2{
+	font-size: 40px;
+}
